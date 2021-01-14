@@ -28,7 +28,6 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     
-
 - template: templates/build.yml
   parameters: 
     buildConfiguration: 'Debug'
